@@ -3,7 +3,20 @@ name: Ejercitación Métodos de Arrays
 locale: es
 type: practice
 beta: false
+teacher_info: ''
 language: javascript
 id_format: "%05d"
-order: []
+order:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
 private: false
