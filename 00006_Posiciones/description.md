@@ -2,6 +2,6 @@
 >
 ```js
 const playlist = ['Everlong', 'The Pretender', 'Learn to Fly'];
-ム canciones(playlist)
+ム posiciones(playlist)
  [ '0 - Everlong', '1 - The Pretender', '2 - Learn to Fly' ]
 ```
