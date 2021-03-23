@@ -1,0 +1,1 @@
+No es necesario definir `agregarIVA` ni `sumarGanancia`, están disponibles en la pestaña de _</>Biblioteca_ para que puedas invocarlas.
