@@ -1,5 +1,5 @@
 it(`Si hacemos separandoPares([[ 43, 11, 18, 46, 44, 37, 42, 29, 9, 3, 37, 0, 40, 10, 38, 34, 25, 40, 4, 32 ]]) debería retornar [10, 20, 30, 40, 50]`, function() {
-  let resultado = separandoPares([[ 43, 11, 18, 46, 44, 37, 42, 29, 9, 3, 37, 0, 40, 10, 38, 34, 25, 40, 4, 32 ])
+  let resultado = separandoPares([ 43, 11, 18, 46, 44, 37, 42, 29, 9, 3, 37, 0, 40, 10, 38, 34, 25, 40, 4, 32 ])
   assert.equal(resultado, [18, 46, 44, 42, 0, 40, 10, 38, 34, 40, 4, 32],`separandoPares debería retornar [18, 46, 44, 42, 0, 40, 10, 38, 34, 40, 4, 32] pero fue ${resultado}`);
 })
 
