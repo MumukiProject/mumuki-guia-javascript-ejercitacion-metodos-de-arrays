@@ -3,6 +3,7 @@
 * Completar el siguiente código para llegar al resultado esperado
 * A un costo primero se le agrega la ganancia y después el IVA (este ultimo sobre el costo + la ganancia)
 
+> Usando `map`, definí la función `posiciones` que tome una lista de `costos` de una playlist y devuelva un nuevo array con los números de las posiciones de cada canción
 ```js
 const costos = [ 12.5, 56, 98, 45.75 ];
 
