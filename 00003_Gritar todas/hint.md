@@ -1,0 +1,1 @@
+Tenés disponible la función `gritar` para invocarla, no es necesario que vuelvas a definirla.
