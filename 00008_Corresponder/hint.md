@@ -1,1 +1,1 @@
-No te olvides calcular previamente los precios finales de la lista de costos, en la _</>Biblioteca_ tenés disponible el código de la solución anterior para poder invocarla.
+No te olvides calcular previamente los precios finales de la lista de costos, en la `</>Biblioteca` tenés disponible el código de la solución anterior para poder invocarla.
