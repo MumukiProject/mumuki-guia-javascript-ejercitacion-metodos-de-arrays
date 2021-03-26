@@ -1,9 +1,9 @@
 it(`Si hacemos gritarTodas(['Labore sea dolor.', 'Justo rebum dolor.', 'Stet lorem amet.']) debería retornar [6, 14, 26, 198]`, function() {
   let resultado = gritarTodas(['Labore sea dolor.', 'Justo rebum dolor.', 'Stet lorem amet.'])
-  assert.equal(resultado, ['¡Labore sea dolor.!', '¡Justo rebum dolor.!', '¡Stet lorem amet.!'],`gritarTodas debería retornar ['¡Labore sea dolor.!', '¡Justo rebum dolor.!', '¡Stet lorem amet.!'] pero fue ${resultado}`);
+  assert.deepEqual(resultado, ['¡Labore sea dolor.!', '¡Justo rebum dolor.!', '¡Stet lorem amet.!'],`gritarTodas debería retornar ['¡Labore sea dolor.!', '¡Justo rebum dolor.!', '¡Stet lorem amet.!'] pero fue ${resultado}`);
 })
 
 it(`Si hacemos gritarTodas(['Quisiera esta tarde divina de octubre', 'pasear por la orilla lejana del mar;', 'que la arena de oro, y las aguas verdes,', 'y los cielos puros me vieran pasar.']) debería retornar ['¡Quisiera esta tarde divina de octubre!', '¡pasear por la orilla lejana del mar;!', '¡que la arena de oro, y las aguas verdes,!', '¡y los cielos puros me vieran pasar.!']`, function() {
   let resultado = gritarTodas(['Quisiera esta tarde divina de octubre', 'pasear por la orilla lejana del mar;', 'que la arena de oro, y las aguas verdes,', 'y los cielos puros me vieran pasar.'])
-  assert.equal(resultado, ['¡Quisiera esta tarde divina de octubre!', '¡pasear por la orilla lejana del mar;!', '¡que la arena de oro, y las aguas verdes,!', '¡y los cielos puros me vieran pasar.!'],`gritarTodas debería retornar ['¡Quisiera esta tarde divina de octubre!', '¡pasear por la orilla lejana del mar;!', '¡que la arena de oro, y las aguas verdes,!', '¡y los cielos puros me vieran pasar.!'] pero fue ${resultado}`);
+  assert.deepEqual(resultado, ['¡Quisiera esta tarde divina de octubre!', '¡pasear por la orilla lejana del mar;!', '¡que la arena de oro, y las aguas verdes,!', '¡y los cielos puros me vieran pasar.!'],`gritarTodas debería retornar ['¡Quisiera esta tarde divina de octubre!', '¡pasear por la orilla lejana del mar;!', '¡que la arena de oro, y las aguas verdes,!', '¡y los cielos puros me vieran pasar.!'] pero fue ${resultado}`);
 })
