@@ -1,5 +1,5 @@
 it(`Si hacemos numerosMasDiez([1, 2, 3, 4, 5]) debería retornar [10, 20, 30, 40, 50]`, function() {
-  let resultado = numerosMasDiez([1, 2, 3, 4, 5])
+  let resultado = numerosMasDiez([10, 20, 30, 40, 50])
   assert.deepEqual(resultado, [10, 20, 30, 40, 50],`numerosMasDiez debería retornar [10, 20, 30, 40, 50] pero fue ${resultado}`);
 })
 
