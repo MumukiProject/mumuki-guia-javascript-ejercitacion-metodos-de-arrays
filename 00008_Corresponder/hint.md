@@ -1,1 +1,1 @@
-No olvides calcular previamente los precios finales de la lista de costos, en la `</>Biblioteca` tenés disponible el código de la solución anterior para poder invocarla.
+No olvides calcular previamente los precios finales de la lista de costos, tenés disponible la función`preciosFinales` para poder invocarla.

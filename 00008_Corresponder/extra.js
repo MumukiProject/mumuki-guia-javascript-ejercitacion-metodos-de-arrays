@@ -5,3 +5,7 @@ const agregarIVA = (costo) => {
 const sumarGanancia = (costo) => {
   return costo * 1.5;
 }
+
+function preciosFinales(costos){
+  return costos.map (costo => agregarIVA(sumarGanancia(costo)));
+}
