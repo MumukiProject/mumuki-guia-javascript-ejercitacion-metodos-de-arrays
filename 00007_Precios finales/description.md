@@ -1,5 +1,10 @@
+Necesitamos calcular los precios finales de unos productos :money_mouth:. Para ello tenemos que: 
 
-> Usando `map`, definí la función `preciosFinales` que tome una lista de `costos` con números que representan costos de diferentes productos y devuelva un nuevo array con el precio final de cada producto que se calcula sumando la ganancia al costo y luego el IVA (este último sobre el costo + la ganancia)
+  1. aplicarle la ganancia sobre su costo;
+  2. aplicarle el IVA sobre el resultado anterior. 
+
+
+> Usando `map`, definí la función `preciosFinales` que tome una lista de costos de diferentes productos y devuelva un nuevo array con el precio final de cada uno.
 >
 ```js
 const costos = [ 12.5, 56, 98, 45.75 ];
