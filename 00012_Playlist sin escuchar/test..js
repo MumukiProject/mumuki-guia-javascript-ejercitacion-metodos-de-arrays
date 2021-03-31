@@ -2,3 +2,8 @@ it(`Si hacemos playlistSinEscuchar(['Smells Like Teen Spirit', 'Everlong', 'Come
   let resultado = playlistSinEscuchar(['Smells Like Teen Spirit', 'Everlong', 'Come As You Are', 'The Pretender', 'Heart-Shaped Box', 'Learn to Fly', 'Lithium'], ['The Pretender', 'Lithium', 'Come As You Are'])
   assert.deepEqual(resultado, ['Smells Like Teen Spirit', 'Everlong', 'Heart-Shaped Box', 'Learn to Fly'],`playlistSinEscuchar debería retornar ['Smells Like Teen Spirit', 'Everlong', 'Heart-Shaped Box', 'Learn to Fly'] pero fue ${resultado}`);
 })
+
+it(`Si hacemos playlistSinEscuchar(['Smells Like Teen Spirit', 'Everlong', 'Come As You Are', 'The Pretender', 'Heart-Shaped Box', 'Learn to Fly', 'Lithium'], ['Smells Like Teen Spirit', 'Everlong', 'Come As You Are', 'The Pretender', 'Heart-Shaped Box', 'Learn to Fly', 'Lithium']) debería retornar ['Smells Like Teen Spirit', 'Everlong', 'Heart-Shaped Box', 'Learn to Fly']`, function() {
+  let resultado = playlistSinEscuchar(['Smells Like Teen Spirit', 'Everlong', 'Come As You Are', 'The Pretender', 'Heart-Shaped Box', 'Learn to Fly', 'Lithium'], [])
+  assert.deepEqual(resultado, ['Smells Like Teen Spirit', 'Everlong', 'Come As You Are', 'The Pretender', 'Heart-Shaped Box', 'Learn to Fly', 'Lithium'],`playlistSinEscuchar debería retornar ['Smells Like Teen Spirit', 'Everlong', 'Come As You Are', 'The Pretender', 'Heart-Shaped Box', 'Learn to Fly', 'Lithium'] pero fue ${resultado}`);
+})
