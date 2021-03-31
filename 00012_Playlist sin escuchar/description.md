@@ -1,4 +1,6 @@
-> Usando `filter`, definí la función `playlistSinEscuchar` que tome una lista de `playlist` con canciones seleccionadas al azar por spotify para reproducir y otra lista de `playlistEscuchada` con canciones que ya escuchamos anteriormente y devuelva un array con aquellas canciones guardadas en `playlist` que no están en `playlistEscuchada`
+Nuestra página de múscia favorita nos está recomendando canciones que ya escuchamos :sleepy:. ¿No podemos hacer algo?
+
+> Usando `filter`, definí la función `playlistSinEscuchar` que tome una lista `playlist` con canciones sugeridas y otra lista `playlistEscuchada` con canciones que ya escuchamos y devuelva un array con aquellas canciones de la `playlist` que no están en `playlistEscuchada` :headphones:
 >
 ```js
 const playlist = ['Smells Like Teen Spirit', 'Everlong', 'Come As You Are', 'The Pretender', 'Heart-Shaped Box', 'Learn to Fly', 'Lithium'];
