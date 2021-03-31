@@ -1,7 +1,7 @@
-const agregarIVA = (costo) => {
+function agregarIVA(costo) {
   return costo * 1.21;
 }
 
-const sumarGanancia = (costo) => {
+function sumarGanancia(costo) {
   return costo * 1.5;
 }
