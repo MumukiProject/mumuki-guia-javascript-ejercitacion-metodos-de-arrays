@@ -6,11 +6,10 @@ it(`Si hacemos enlistar(librosJS) debería retornar ['<li>JavaScript for Kids: A
 })
 
 it(`Si hacemos enlistar(['La insoportable levedad del ser','Socorro','Un lobo estepario', 'Como agua para chocolate']) debería retornar ['<li>La insoportable levedad del ser','Socorro','Un lobo estepario', 'Como agua para chocolate']`, function(){
-  let resultado = enlistar(['La insoportable levedad del ser','Socorro','Un lobo estepario', 'Como agua para chocolate']) debería retornar ['<li>La insoportable levedad del ser</li>','<li>Socorro</li>','<li>Un lobo estepario</li>', '<li>Como agua para chocolate</li>'])
-  assert.deepEqual(resultado,['<li>La insoportable levedad del ser</li>','<li>Socorro</li>','<li>Un lobo estepario</li>', '<li>Como agua para chocolate</li>'])
+  let resultado = enlistar(['La insoportable levedad del ser','Socorro','Un lobo estepario', 'Como agua para chocolate']);
+  assert.deepEqual(resultado,['<li>La insoportable levedad del ser</li>','<li>Socorro</li>','<li>Un lobo estepario</li>','<li>Como agua para chocolate</li>'], `enlistar(['La insoportable levedad del ser','Socorro','Un lobo estepario', 'Como agua para chocolate'] debería retornar ['<li>La insoportable levedad del ser</li>','<li>Socorro</li>','<li>Un lobo estepario</li>', '<li>Como agua para chocolate</li>'] pero retornó ${resultado}`)
 })
-
 it(`Si hacemos enlistar(['Fundación','Los desposeídos', 'Ensayo sobre la ceguera']) debería retornar ['<li>Fundación</li>','<li>Los desposeídos</li>', '<li>Ensayo sobre la ceguera</li>']`, function(){
-  let resultado = enlistar(['Fundación','Los desposeídos', 'Ensayo sobre la ceguera'])
-  assert.deepEqual(resultado,['<li>Fundación</li>','<li>Los desposeídos</li>', '<li>Ensayo sobre la ceguera</li>'])
+  let resultado = enlistar(['Fundación','Los desposeídos', 'Ensayo sobre la ceguera']);
+  assert.deepEqual(resultado,['<li>Fundación</li>','<li>Los desposeídos</li>', '<li>Ensayo sobre la ceguera</li>'], `enlistar(['Fundación','Los desposeídos', 'Ensayo sobre la ceguera']) debería retornar ['<li>Fundación</li>','<li>Los desposeídos</li>', '<li>Ensayo sobre la ceguera</li>'] pero retornó ${resultado}`)
 })
